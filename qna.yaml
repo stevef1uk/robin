@@ -1,0 +1,37 @@
+created_by: sjfisher
+version: 3
+domain: animals
+seed_examples:
+  - context: |
+      The **robin** most commonly refers to several species of passerine birds.
+      Robins are small to medium-sized songbirds with a distinctive orange-red breast,
+      grayish-brown back, and a white belly. They have thin legs, a relatively short tail,
+      and a pointed beak. The European robin and the American robin are the two most
+      commonly recognized species.
+    questions_and_answers:
+      - question: |
+          Where robins live?
+        answer: |
+          Robins are found across Europe, North America, and parts of Asia.
+          The European robin inhabits woodlands, gardens, and parks in Europe and western Asia,
+          while the American robin is widespread in forests, suburban areas, and cities across
+      - question: |
+          What do robins eat
+        answer: |
+          Robins are omnivores. Their diet consists of insects, worms, fruits, and berries.
+          In the summer, they mainly feed on insects and earthworms, while in the winter,
+          they rely on fruits and berries for nourishment.
+      - question: |
+          Do robins migrate?
+        answer: |
+          European robins are generally resident birds, though some migrate short distances.
+          American robins are partial migrants; many in the northern parts of their range
+          fly south during winter, while others stay in milder climates year-round.
+document_outline: |
+  Information about the bird called a robin habitat, diet and migration habits
+document:
+  repo:
+  commit:
+  patterns:
+    - chickadee.md
+
